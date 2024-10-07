@@ -22,4 +22,4 @@ def split_subtitle(input_file, chinese_file, english_file):
                 en_file.write("".join(english_part) + "\n")
 
 # 调用函数
-split_subtitle('The Shawshank Redemption-台词.txt', 'chinese_subtitle.txt', 'english_subtitle.txt')
+split_subtitle('The Shawshank Redemption.txt', 'chinese_subtitle.txt', 'english_subtitle.txt')
