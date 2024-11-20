@@ -1,8 +1,6 @@
 import random
-
 # 初始化猜测次数
 guess_count = 0
-
 # 生成一个随机数
 num = random.randint(1, 100)
 
